@@ -71,7 +71,7 @@ public final class Strings {
   /**
    * Returns a string, of length at least {@code minLength}, consisting of {@code string} prepended
    * with as many copies of {@code padChar} as are necessary to reach that length. For example,
-   *
+   *  向前补位
    * <ul>
    *   <li>{@code padStart("7", 3, '0')} returns {@code "007"}
    *   <li>{@code padStart("2010", 3, '0')} returns {@code "2010"}
@@ -102,7 +102,7 @@ public final class Strings {
   /**
    * Returns a string, of length at least {@code minLength}, consisting of {@code string} appended
    * with as many copies of {@code padChar} as are necessary to reach that length. For example,
-   *
+   * 向后补位
    * <ul>
    *   <li>{@code padEnd("4.", 5, '0')} returns {@code "4.000"}
    *   <li>{@code padEnd("2010", 3, '!')} returns {@code "2010"}
