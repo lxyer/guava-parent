@@ -204,6 +204,7 @@ public final class Strings {
     while (s < maxSuffixLength && a.charAt(a.length() - s - 1) == b.charAt(b.length() - s - 1)) {
       s++;
     }
+    //index越界校验
     if (validSurrogatePairAt(a, a.length() - s - 1)
         || validSurrogatePairAt(b, b.length() - s - 1)) {
       s--;
